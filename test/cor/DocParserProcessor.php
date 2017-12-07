@@ -5,10 +5,10 @@
  * Date: 07.12.17
  * Time: 18:42
  */
-require_once ('CsvDocParser.php');
-require_once ('JsonDocParser.php');
-require_once ('TextDocParser.php');
-require_once ('XmlDocParser.php');
+require_once('CsvDocParser.php');
+require_once('JsonDocParser.php');
+require_once('TextDocParser.php');
+require_once('XmlDocParser.php');
 
 class DocParserProcessor
 {

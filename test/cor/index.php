@@ -1,6 +1,6 @@
 <?php
-require_once ('DocParser.php');
-require_once ('DocParserProcessor.php');
+require_once('DocParser.php');
+require_once('DocParserProcessor.php');
 
 $files = [
     'file.txt',
