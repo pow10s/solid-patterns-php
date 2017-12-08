@@ -35,10 +35,10 @@ class UserCommand implements ICommand
 
 class TestCommand implements ICommand
 {
-    public function onCommand( $name, $args )
+    public function onCommand( $name,  $args )
     {
         if ( $name != 'test' ) return false;
-        echo( "TestCommand handling 'test'\n" );
+        echo( "TestCommand handling 'test'\n . Argument = $args " );
         return true;
     }
 }
