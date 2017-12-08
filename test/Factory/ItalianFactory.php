@@ -16,9 +16,7 @@ class ItalianFactory extends Factory
                 return new Bicycle();
             break;
             case parent::FAST:
-                $car = new CarFerrari();
-                $car->setColor('Red');
-                echo $car->getColor();
+                return new CarFerrari();
             break;
         }
     }
