@@ -38,7 +38,7 @@ class TestCommand implements ICommand
     public function onCommand( $name,  $args )
     {
         if ( $name != 'test' ) return false;
-        echo( "TestCommand handling 'test'\n . Argument = $args " );
+        echo( "TestCommand handling 'test'\n" );
         return true;
     }
 }
