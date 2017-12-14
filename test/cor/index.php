@@ -9,4 +9,4 @@ $files = [
     'file.csv',
     'file.doc',
 ];
-DocParserProcessor::run($files);
+DocParserProcessor::run('file.xml');

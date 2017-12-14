@@ -19,13 +19,8 @@ class DocParserProcessor
         $csvParser  = new CsvDocParser($jsonParser);
         $textParser = new TextDocParser($csvParser);
 
-        if (is_array($files)) {
-            foreach ($files as $file) {
-                $textParser->parse($file);
-            }
-        } else {
             $textParser->parse($files);
-        }
+
     }
 
 }
